@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="section">
+      <h4>Feedback Coach</h4>
+      <div class="container">
+        <h6>Thầy dạy em có hay không</h6>
+        <form action="">
+          <div class="list-point-evaluation">
+            <div class="point-evaluation_item" data-point="1">1</div>
+            <div class="point-evaluation_item" data-point="2">2</div>
+            <div class="point-evaluation_item" data-point="3">3</div>
+            <div class="point-evaluation_item" data-point="4">4</div>
+            <div class="point-evaluation_item" data-point="5">5</div>
+            <div class="point-evaluation_item" data-point="6">6</div>
+            <div class="point-evaluation_item" data-point="7">7</div>
+            <div class="point-evaluation_item" data-point="8">8</div>
+            <div class="point-evaluation_item" data-point="9">9</div>
+            <div class="point-evaluation_item" data-point="10">10</div>
+          </div>
+          <div class="comment">
+            <input id="comment" type="text" placeholder="Write a review" />
+            <button id="submit">send</button>
+          </div>
+        </form>
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th scope="col">Điểm</th>
+              <th scope="col">comment</th>
+              <th scope="col">Chức năng</th>
+            </tr>
+          </thead>
+          <tbody id="list-feedback">
+            <tr>
+              <td>10</td>
+              <td>abcxyz</td>
+              <td>
+                <button class="btn-edit">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <button class="btn-delete">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

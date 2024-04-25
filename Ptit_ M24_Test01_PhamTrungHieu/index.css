@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(1, 0, 63);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+h4 {
+    margin: 20px 0 10px 0;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 90, 219);
+}
+
+.container {
+    background-color: #fff;
+}
+
+h6 {
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.list-point-evaluation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.point-evaluation_item {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #d6d6d6;
+    border-radius: 100%;
+}
+
+.point-evaluation_item:hover {
+    background-color: #dd0784;
+    color: #fff;
+    cursor: pointer;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.comment input {
+    width: 70%;
+    height: 45px;
+    outline: none;
+}
+
+.comment button {
+    width: 72px;
+    position: absolute;
+    top: 10px;
+    right: 178px;
+    border: none;
+}
+
+.comment button:hover {
+    background-color: #5f5f5f;
+    color: #fff;
+}
+
+.table td .btn-edit, .btn-delete {
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: #dd0784;
+}
+
+.active {
+    background-color: #dd0784;
+    color: #fff;
+}
